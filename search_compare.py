@@ -107,7 +107,7 @@ def main():
 
         for myItem in total_time_count:
             myAvg = total_time_count[myItem]/100
-            print(myItem,"took %10.7f seconds, on average" % myAvg)
+            print(myItem, "took%10.7f seconds to run, on average" % myAvg)
 
 
 if __name__ == "__main__":
